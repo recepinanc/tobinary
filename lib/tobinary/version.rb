@@ -1,0 +1,3 @@
+module Tobinary
+  VERSION = "0.1.0"
+end
