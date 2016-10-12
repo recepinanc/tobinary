@@ -28,7 +28,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.13)
   rake (~> 10.0)
-  rspec (~> 3.0)
+  rspec
   tobinary!
 
 BUNDLED WITH
