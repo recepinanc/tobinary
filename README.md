@@ -26,7 +26,7 @@ Or install it yourself as:
 
 Just call `.to_binary`on any decimal number lower than 65536 (will be enchanced :) ) and it will return you the binary version of it.
 
-` 3.to_binary ` will give you ` 11 `\n` 30.to_binary ` will give you ` 00011110 `\n` 65535.to_binary ` will give you ` 1111111111111111 `
+` 3.to_binary ` will give you ` 11 `<br />` 30.to_binary ` will give you ` 00011110 `<br />` 65535.to_binary ` will give you ` 1111111111111111 `
 
 ## Development
 
