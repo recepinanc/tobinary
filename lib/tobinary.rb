@@ -20,7 +20,7 @@ module Tobinary
       if number == 1
         digits[index] = 1
       else
-        while number > 2
+        while number >= 2
           reminder = number %2
           digits[index] = reminder
           index -= 1

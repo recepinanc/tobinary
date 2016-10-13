@@ -11,6 +11,12 @@ require "spec_helper"
     end
 
     context 'Numbers lower than 256' do
+      it 'should return: 00000100' do
+        expect(4.to_binary).to eq '00000100'
+      end
+      it 'should return: 00010000' do
+        expect(16.to_binary).to eq '00010000'
+      end
       it 'should return: 01111011' do
         expect(123.to_binary).to eq '01111011'
       end 
@@ -22,6 +28,9 @@ require "spec_helper"
     context 'Numbers lower than 65536' do
       it 'should return: 0111111111111111' do
         expect(32767.to_binary).to eq '0111111111111111'
+      end 
+      it 'should return: 1000000000000000' do
+        expect(32768.to_binary).to eq '1000000000000000'
       end 
       it 'should return: 1111111111111111' do
         expect(65535.to_binary).to eq '1111111111111111'
