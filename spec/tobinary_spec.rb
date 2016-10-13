@@ -14,6 +14,9 @@ require "spec_helper"
       it 'should return: 00000100' do
         expect(4.to_binary).to eq '00000100'
       end
+      it 'should return: 00001000' do
+        expect(8.to_binary).to eq '00001000'
+      end
       it 'should return: 00010000' do
         expect(16.to_binary).to eq '00010000'
       end
