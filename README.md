@@ -1,10 +1,10 @@
-# Tobinary
+# tobinary
 
 Ruby Gem that allows you to convert any number into binary easily.
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/tobinary`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+You can also check the rubygems.org link https://rubygems.org/gems/tobinary
 
 ## Installation
 
@@ -24,7 +24,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Just call `.to_binary`on any decimal number lower than 65536 (will be enchanced :) ) and it will return you the binary version of it.
+
+` 3.to_binary ` will give you ` 11 `
+` 30.to_binary ` will give you ` 00011110 `
+` 65535.to_binary ` will give you ` 1111111111111111 `
 
 ## Development
 
@@ -34,4 +38,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/tobinary. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/recepinanc/tobinary. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
