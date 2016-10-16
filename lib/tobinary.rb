@@ -17,25 +17,16 @@ module Tobinary
       end
 
       index = digits.length-1
-      if number == 1
-        digits[index] = 1
-      else
-        while number >= 2
-          reminder = number %2
-          digits[index] = reminder
-          index -= 1
-          number /= 2
-          if number == 1
-            digits[index] = 1
-          end
-        end
+      while number > 0
+        digits[index] = number % 2
+        index -= 1
+        number /= 2
       end
+      digits.join
     end
-
-    digits.join
   end
 end
 
-class Numeric
+class Fixnum
   include Tobinary
 end
